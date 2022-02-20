@@ -21,7 +21,7 @@ Tout d'abord clonez le repo du frontend, ensuite clonez le repo backend end dans
 npm install
 ```
 
-Cela installe les dépendences.
+Cela installe les dépendances.
 
 Pour démarrer l'API exécuter la commande suivante :
 
