@@ -92,7 +92,7 @@ exports.likeSauce = (req, res) => {
             .then(() => res.status(200).json({ message: 'Dislike ajouté !' }))
             .catch(error => res.status(400).json({ error }))
     }
-    //retourne le tableau correspondant a sauceId //
+    // Récupération de la Sauce dans la DB selon l'ID de la sauce //
     else {
         Sauce.findOne({ _id: req.params.id })
             .then(sauce => {
